@@ -4,12 +4,13 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite --port 3001",
+		"dev": "vite --port 3017",
 		"build": "tsc && vite build",
 		"lint": "biome lint --apply ./src",
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@aroma/sdk-react-17": "workspace:^",
 		"@aroma/sdk-react-18": "workspace:^",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2"

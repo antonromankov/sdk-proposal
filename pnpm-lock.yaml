@@ -17,6 +17,9 @@ importers:
 
   apps/react-17:
     dependencies:
+      '@aroma/sdk-react-17':
+        specifier: workspace:^
+        version: link:../../libs/sdk-react-17
       '@aroma/sdk-react-18':
         specifier: workspace:^
         version: link:../../libs/sdk-react-18
@@ -45,6 +48,9 @@ importers:
       '@aroma/sdk-react-17':
         specifier: workspace:^
         version: link:../../libs/sdk-react-17
+      '@aroma/sdk-react-18':
+        specifier: workspace:^
+        version: link:../../libs/sdk-react-18
       react:
         specifier: ^18.2.0
         version: 18.2.0
