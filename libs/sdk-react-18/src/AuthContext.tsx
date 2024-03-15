@@ -1,4 +1,4 @@
-import { type FC, type PropsWithChildren, createContext, useContext, useEffect, useState } from 'react'
+import { type PropsWithChildren, createContext, useContext, useEffect, useState } from 'react'
 
 interface AuthContextType {
 	isAuthenticated: boolean
@@ -8,7 +8,7 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
-const AuthProvider: FC<PropsWithChildren<Record<string, unknown>>> = ({ children }) => {
+const AuthProvider = ({ children }: PropsWithChildren) => {
 	const [isAuthenticated, setIsAuthenticated] = useState(false)
 
 	useEffect(() => {
