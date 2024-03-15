@@ -2,14 +2,17 @@
 	"name": "@aroma/sdk-react-17",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"module": "index.ts",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"lint": "biome lint --apply ./src"
 	},
 	"dependencies": {
 		"react": "^17.0.2"
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"@types/react": "~17.0.78"
+	}
 }
