@@ -4,7 +4,7 @@
 	"description": "",
 	"module": "index.ts",
 	"scripts": {
-		"lint": "biome lint --apply ./src"
+		"lint": "biome lint --apply "
 	},
 	"dependencies": {
 		"react": "^17.0.2"
