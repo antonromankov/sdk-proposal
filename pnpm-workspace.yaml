@@ -1,0 +1,5 @@
+packages:
+  - 'libs/sdk-react-17'
+  - 'libs/sdk-react-18'
+  - 'apps/react-17'
+  - 'apps/react-18'

@@ -1,0 +1,17 @@
+{
+  "name": "sdk-proposal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react17:start": "cd apps/react-17 && pnpm run dev",
+    "react18:start": "cd apps/react-18 && pnpm run dev",
+    "lint:all": "pnpm run --recursive lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.1"
+  }
+}
